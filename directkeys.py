@@ -8,11 +8,12 @@ import time
 
 SendInput = ctypes.windll.user32.SendInput
 
-W = 0x11
-A = 0x1E
-S = 0x1F
-D = 0x20
+One = 0x02
+Two = 0x03
+Three = 0x04
+Four = 0x05
 Five = 0x06
+Six = 0x07
 
 # C struct redefinitions
 PUL = ctypes.POINTER(ctypes.c_ulong)
